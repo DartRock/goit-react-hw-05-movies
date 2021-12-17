@@ -1,0 +1,33 @@
+.noInfo {
+  padding: 30px;
+
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.reviewList {
+  padding: 30px;
+}
+
+.reviewListItem {
+  padding: 20px;
+
+  background-color: rgb(240, 240, 240);
+}
+
+.reviewTitle {
+  margin-bottom: 10px;
+
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.reviewTitleName {
+  margin-left: 5px;
+}
+
+.reviewText {
+  font-size: 15px;
+  line-height: 18px;
+}

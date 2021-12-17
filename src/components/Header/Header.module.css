@@ -1,0 +1,40 @@
+.header {
+  padding: 0 20px;
+  background: linear-gradient(to right, rgb(123, 87, 255), rgb(109, 131, 255));
+}
+
+.headerList {
+  display: flex;
+}
+
+.headerLink {
+  position: relative;
+  display: block;
+  padding: 25px 40px;
+
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: aliceblue;
+}
+
+.headerLink:hover {
+  background: linear-gradient(to right, rgb(140, 108, 255), rgb(124, 144, 255));
+}
+
+.headerLinkActive {
+  background-color: rgba(248, 250, 255, 0.034);
+}
+
+.headerLinkActive::before {
+  content: '';
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+  border-bottom: 7px solid rgba(236, 235, 235, 0.274);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}

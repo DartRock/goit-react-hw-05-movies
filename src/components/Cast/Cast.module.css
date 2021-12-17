@@ -1,0 +1,151 @@
+.movieWrapper {
+  display: flex;
+  padding: 30px;
+}
+
+.movieTextWrapper {
+  padding: 25px;
+
+  background: rgb(255, 255, 255);
+}
+
+.backButton {
+  padding: 10px 30px;
+  margin-left: 20px;
+  margin-top: 20px;
+
+  border-radius: 5px;
+
+  transition: background-color 250ms linear;
+}
+
+.backButton:hover {
+  background-color: #fff;
+
+  transition: background-color 250ms linear;
+}
+
+.movieTitle {
+  margin-bottom: 50px;
+
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.movieRating {
+  margin-bottom: 50px;
+
+  text-align: end;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+.movieRatingText {
+  margin-left: 10px;
+
+  color: white;
+  font-weight: 500;
+  border: 7px solid rgb(255, 57, 57);
+  background-color: rgb(255, 59, 59);
+  border-radius: 50%;
+  outline: 1px solid rgba(34, 34, 34, 0.034);
+}
+
+.movieOverview {
+  margin-bottom: 10px;
+
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.movieOverviewText {
+  margin-bottom: 40px;
+
+  line-height: 24px;
+  font-size: 16px;
+}
+
+.movieGenres {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.movieGenresText {
+  margin-top: 10px;
+
+  font-size: 16px;
+}
+
+.movieImg {
+  outline: 1px solid black;
+}
+
+.movieAddInfoWrapper {
+  display: flex;
+  padding: 30px;
+
+  justify-content: flex-end;
+}
+
+.movieAddInfoTitle {
+  padding: 20px;
+
+  background-color: white;
+
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.movieAddInfoList {
+  display: flex;
+  align-items: center;
+}
+
+.movieAddInfoItem {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.movieAddInfoLink {
+  display: block;
+  padding: 20px 50px;
+
+  color: rgb(48, 48, 48);
+}
+
+.movieAddInfoLink:hover {
+  background-color: rgb(247, 247, 247);
+}
+
+.castList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 1em;
+  padding: 30px;
+}
+
+.castItem {
+  padding: 10px;
+}
+
+.castImg {
+  margin: 0 auto;
+}
+
+.castName {
+  margin-top: 9px;
+}
+
+.castCharacter {
+  margin-top: 7px;
+}
+
+.castCharacterText {
+  margin-left: 2px;
+}
